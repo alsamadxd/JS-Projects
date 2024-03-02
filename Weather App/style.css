@@ -79,6 +79,9 @@ body {
 h2 {
   font-size: 4rem;
 }
+span {
+  font-size: 3rem;
+}
 
 .others {
   width: 100%;
