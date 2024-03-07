@@ -23,7 +23,11 @@ listContainer.addEventListener(
     if (e.target.tagName === "LI") {
       e.target.classList.toggle("checked");
     } else if (e.target.tagName === "SPAN") {
-      e.target.parentELement.remove();
+      // e.target.parentELement.remove();
+      // listContainer.removeChild();
+      // e.target.
+      e.target.parentElement.classList.add("remove");
+      // console.log(listContainer.innerHTML);
     }
   },
   false

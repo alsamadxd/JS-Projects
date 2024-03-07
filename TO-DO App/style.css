@@ -17,7 +17,7 @@
   max-width: 60rem;
   background-color: #fff;
   margin: 10rem auto 2rem;
-  padding: 4rem 3rem 7rem;
+  padding: 4rem 3rem 10rem;
   border-radius: 1rem;
 }
 
@@ -102,9 +102,13 @@ ul li span {
   color: #555;
   line-height: 4rem;
   text-align: center;
+  border-radius: 50%;
 }
 
 ul li span:hover {
   background-color: #efeef0;
-  border-radius: 50%;
+}
+
+.remove {
+  display: none;
 }
